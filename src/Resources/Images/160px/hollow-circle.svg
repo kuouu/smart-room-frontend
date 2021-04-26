@@ -1,0 +1,3 @@
+<svg id="svgelem" height="200" xmlns="http://www.w3.org/2000/svg">
+   <circle cx="100" cy="50" r="40" stroke="#dddddd" stroke-width="3" fill="none" />
+</svg>

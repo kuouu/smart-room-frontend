@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>3. Symbols/24px/illu_lv_high@2x</title>
+    <g id="3.-Symbols/24px/illu_lv_high" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle" x="0" y="0" width="24" height="24"></rect>
+        <g id="strong_light" transform="translate(2.000000, 2.000000)" fill="#999999">
+            <circle id="Oval" cx="10" cy="10" r="2"></circle>
+            <rect id="Rectangle" transform="translate(15.300563, 4.704668) rotate(-45.000000) translate(-15.300563, -4.704668) " x="12.8005627" y="3.70466812" width="5" height="2"></rect>
+            <rect id="Rectangle" transform="translate(4.700563, 15.295332) rotate(-45.000000) translate(-4.700563, -15.295332) " x="2.20056275" y="14.2953319" width="5" height="2"></rect>
+            <rect id="Rectangle" transform="translate(15.295895, 15.300000) rotate(-45.000000) translate(-15.295895, -15.300000) " x="14.2958946" y="12.8" width="2" height="5"></rect>
+            <rect id="Rectangle" transform="translate(4.705231, 4.700000) rotate(-45.000000) translate(-4.705231, -4.700000) " x="3.70523087" y="2.2" width="2" height="5"></rect>
+            <rect id="Rectangle" x="15" y="9" width="5" height="2"></rect>
+            <rect id="Rectangle" x="0" y="9" width="5" height="2"></rect>
+            <rect id="Rectangle" x="9" y="15" width="2" height="5"></rect>
+            <rect id="Rectangle" x="9" y="0" width="2" height="5"></rect>
+        </g>
+    </g>
+</svg>

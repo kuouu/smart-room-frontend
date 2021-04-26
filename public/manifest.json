@@ -1,0 +1,30 @@
+{
+  "short_name": "Shalun Smart Home App",
+  "name": "Shalun Smart Home 4-1 App",
+  "icons": [
+    {
+      "src": "house.png",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/png"
+    },
+    {
+      "src": "house-192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "house-256.png",
+      "type": "image/png",
+      "sizes": "256x256"
+    },
+    {
+      "src": "house-512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

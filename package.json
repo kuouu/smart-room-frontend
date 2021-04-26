@@ -1,0 +1,65 @@
+{
+  "name": "home-control-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@chakra-ui/core": "^0.8.0",
+    "@chakra-ui/theme-tools": "^1.0.0-next.3",
+    "@emotion/core": "^10.0.35",
+    "@emotion/styled": "^10.0.27",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "autoprefixer": "9.8.6",
+    "axios": "^0.21.0",
+    "dayjs": "^1.9.6",
+    "echarts": "^4.9.0",
+    "echarts-for-react": "^2.0.16",
+    "emotion-theming": "^10.0.27",
+    "postcss-cli": "^7.1.2",
+    "prop-types": "^15.7.2",
+    "react": "^16.13.1",
+    "react-cookie": "^4.0.3",
+    "react-dom": "^16.13.1",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "3.4.3",
+    "tailwindcss": "^1.9.0"
+  },
+  "scripts": {
+    "build:css": "postcss src/index.css -o src/tailwind.css",
+    "watch:css": "postcss src/index.css -o src/tailwind.css -w",
+    "start": "yarn build:css && react-scripts start",
+    "build": "yarn build:css && react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "eslint": "npx eslint **/src/**/*.js",
+    "eslint:files": "npx eslint **/src/**/*.js | grep ^[\\w/].*\\.js",
+    "eslint:files:open": "code $(npx eslint **/src/**/*.js | grep ^[\\w/].*\\.js)"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.6.0",
+    "eslint-config-airbnb": "^18.2.0",
+    "eslint-config-prettier": "^6.12.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsx-a11y": "^6.3.1",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-react": "^7.21.3",
+    "prettier": "^2.1.2"
+  }
+}
