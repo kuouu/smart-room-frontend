@@ -12,17 +12,17 @@ High Application Multi-AC Scheduling Control System
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/kuouu/smart-room-frontend.git
+   git clone git@github.com:kuouu/smart-room-frontend.git
    ```
 2. Install YARN packages
    ```sh
    yarn
    ```
-4. Enter your URL in `/.env`
+3. Enter your URL in `/.env`
    ```
    REACT_APP_HOME_CONTROL_BACKEND='ENTER YOUR BACKEND URL'
    ```
-5. Run the React application
+4. Run the React application
    ```sh
    yarn start
    ```
